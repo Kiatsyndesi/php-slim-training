@@ -1,0 +1,23 @@
+{
+    "name": "kiatsyndesi/php-slim-training",
+    "autoload": {
+        "psr-4": {
+            "Kiatsyndesi\\PhpSlimTraining\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kiatsyndesi"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "httpsoft/http-message": "^1.0",
+        "httpsoft/http-server-request": "^1.0",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^2.4",
+        "laminas/laminas-diactoros": "^2.14"
+    }
+}
